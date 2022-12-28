@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy paste Api</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <header>
+            <h1>Clipboard API</h1>
+        </header>
+        <main>
+            <p contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum incidunt beatae totam recusandae molestias nemo! Adipisci deserunt in voluptatibus quia. Earum sit harum accusantium quae, optio ipsum illo deleniti ullam.</p>
+            
+            <p>Repellat ad, sint. Nesciunt fugit sint ducimus vel officia illo ipsam dolorum unde atque, distinctio corporis minima ad alias voluptate, doloremque cupiditate iste! Et, molestias, nobis. Ducimus veniam, ea. Labore?</p>
+            
+            <p><button id="btnCopy">Copy Sample Code</button></p>
+            
+            <pre>
+            ['cut', 'copy', 'paste'].forEach(function(event) {
+                document.addEventListener(event, function(e) {
+                    console.log(event);   
+                });
+            });
+        </pre>
+    <!-- js -->
+    <script src="main.js"></script>
+</body>
+</html>
